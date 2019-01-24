@@ -34,6 +34,8 @@ public class SpecialFiles {
         // Reflection
         excludedFiles.add("enclosing");
         excludedFiles.add("reflectionForLocalClassInFunctionWithMangledName.kt");
+        excludedFiles.add("kt10259.kt");
+        excludedFiles.add("simpleClassLiteral.kt");
 
         //UnsatisfiedLinkError
         excludedFiles.add("nativePropertyAccessors.kt");
